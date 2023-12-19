@@ -144,12 +144,6 @@ class _LoginState extends State<Login> {
                     ),
                     TextButton(
                       onPressed: () => {
-                        // Navigator.push(
-                        //   context,
-                        //   MaterialPageRoute(
-                        //     builder: (context) => ForgotPassword(),
-                        //   ),
-                        // )
                       },
                       child: Text(
                         'Forgot Password ?',
@@ -176,18 +170,7 @@ class _LoginState extends State<Login> {
                       },
                       child: Text('Signup'),
                     ),
-                    // TextButton(
-                    //   onPressed: () => {
-                    //     Navigator.pushAndRemoveUntil(
-                    //         context,
-                    //         PageRouteBuilder(
-                    //           pageBuilder: (context, a, b) => UserMain(),
-                    //           transitionDuration: Duration(seconds: 0),
-                    //         ),
-                    //         (route) => false)
-                    //   },
-                    //   child: Text('Dashboard'),
-                    // ),
+                    
                   ],
                 ),
               )
