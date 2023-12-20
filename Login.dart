@@ -1,7 +1,7 @@
-import 'package:create_user_profile/Dashboard.dart';
+import 'package:lab10/Dashboard.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:create_user_profile/SignUp.dart';
+import 'package:lab10/SignUp.dart';
 
 class Login extends StatefulWidget {
   Login({Key? key}) : super(key: key);
